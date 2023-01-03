@@ -1,0 +1,33 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "Typescript Node.js API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.ts",
+    "lint": "eslint ./src ./test --ext .ts",
+    "lint:fix": "eslint ./src ./test --ext .ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[\u001b[C\u001b[C\u001b\u001b[Cs",
+    "typescript",
+    "api"
+  ],
+  "author": "wild\u001b[D\u001b[D\u001b[W",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
